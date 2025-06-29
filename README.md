@@ -1,1 +1,1 @@
-# learn-react-vercel-next
+# Aprendendo React com NextJS do Vercel
