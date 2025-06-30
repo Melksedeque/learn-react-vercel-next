@@ -14,12 +14,13 @@
     <script type="text/jsx">
         const app = document.getElementById('app');
         
-        function Header() {
+        function Header(props) {
+            console.log(props)
             return <h1>Develop. Preview. Ship.</h1>;
         }
 
         function HomePage() {
-            return <div><Header /></div>;
+            return <div><Header title="React" /></div>;
         }
         
         const root = ReactDOM.createRoot(app);
