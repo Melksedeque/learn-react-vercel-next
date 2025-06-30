@@ -15,12 +15,11 @@
         const app = document.getElementById('app');
         
         function Header({title}) {
-            console.log(title)
-            return <h1>{title}</h1>;
+            return <h1>{title ? title : "Default title"}</h1>;
         }
 
         function HomePage() {
-            return <div><Header title="React" /></div>;
+            return <div><Header title="" /></div>;
         }
         
         const root = ReactDOM.createRoot(app);
