@@ -19,7 +19,17 @@
         }
 
         function HomePage() {
-            return <div><Header title="" /></div>;
+            const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+            return (
+                <div>
+                    <Header title="Develop. Preview. Ship." />
+                    <ul>
+                        {names.map((name) => {
+                            return <li>{name}</li>;
+                        })}
+                    </ul>
+                </div>
+            );
         }
         
         const root = ReactDOM.createRoot(app);
