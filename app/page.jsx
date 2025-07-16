@@ -1,5 +1,6 @@
 "use client"
 
+import styles from './page.module.css';
 import LikeButton from './like-button';
 
 function Header({title}) {
@@ -10,7 +11,7 @@ export default function HomePage() {
     const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
     return (
-        <div className='conteudo'>
+        <div className={styles.conteudo}>
             <Header title="Develop. Preview. Ship." />
             <ul>
                 {names.map((name) => (
