@@ -11,14 +11,16 @@ export default function HomePage() {
     const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
     return (
-        <div className={styles.conteudo}>
-            <Header title="Develop. Preview. Ship." />
-            <ul>
-                {names.map((name) => (
-                    <li key={name}>{name}</li>
-                ))}
-            </ul>
-            <LikeButton />
-        </div>  
+        <main className={styles.main}>
+            <div className={styles.conteudo}>
+                <Header title="Develop. Preview. Ship." />
+                <ul>
+                    {names.map((name) => (
+                        <li key={name}>{name}</li>
+                    ))}
+                </ul>
+                <LikeButton />
+            </div>
+        </main>  
     )
 }
