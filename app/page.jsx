@@ -10,7 +10,7 @@ export default function HomePage() {
     const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
     return (
-        <>
+        <div className='conteudo'>
             <Header title="Develop. Preview. Ship." />
             <ul>
                 {names.map((name) => (
@@ -18,6 +18,6 @@ export default function HomePage() {
                 ))}
             </ul>
             <LikeButton />
-        </>  
+        </div>  
     )
 }
