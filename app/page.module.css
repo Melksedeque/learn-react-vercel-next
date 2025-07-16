@@ -1,0 +1,9 @@
+.conteudo {
+    background-color: #EDEDED;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: 400px;
+}
