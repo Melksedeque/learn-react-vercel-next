@@ -1,3 +1,10 @@
+.main {
+    display: block;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 .conteudo {
     background-color: #EDEDED;
     border-radius: 30px;
